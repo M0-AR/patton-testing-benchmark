@@ -1,0 +1,19 @@
+# Mapping: Patton chapters -> Experiments -> 2026 practice
+- Ch1 axioms (impossible to test fully, risk-based, pesticide, bugs-follow-bugs) -> E05 clustering + E06 diversification + risk_score (E04)
+- Ch2 models (big-bang/code-fix/waterfall/spiral/agile) -> README CI gates (this repo = spiral+CI)
+- Ch3 realities (precision/accuracy, V&V, QA) -> E05 severity/proxy + defect-escape discussion
+- Ch4 spec review -> shift-left (proposal H3), E01 invalid-partition rejection
+- Ch5 black-box (equiv/boundary/sub-boundary/state/race/stress) -> E01+E02+E06
+- Ch6 white-box reviews + standards -> E03 safe-vs-unsafe table check
+- Ch7 unit/integration/coverage -> E01 branch/condition + mutation-kill probe
+- Ch8 config -> E04 cross-product + reduction + pairwise
+- Ch9 compat (backward/forward, Clipboard/DDE/OLE) -> E04 + live compat area
+- Ch10 localization (expansion, Unicode, hotkeys) -> E02 non-digit/extended probe (extend me)
+- Ch11 usability/accessibility -> checklist in proposal (extend with aXe)
+- Ch12 docs -> README + papers as tested docs
+- Ch13 security (threat model/DREAD/buffer/JPEG/forensics) -> E03 + risk_score
+- Ch14 web -> live GitHub web-API mining (E05)
+- Ch15 automation/tools/monkeys -> E06 dumb vs smart
+- Ch16 bugbash/beta/outsource -> E05 live = crowd signal
+- Ch17-20 plans/cases/bugs/metrics -> Makefile verify + junit + live_summary curves
+- Ch21-22 QA/CMM/career -> defect-escape-rate + maturity discussion

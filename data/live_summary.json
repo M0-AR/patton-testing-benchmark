@@ -1,0 +1,17 @@
+{
+  "source": "github:pytest-dev/pytest(live)",
+  "n": 50,
+  "by_area": {
+    "float-math": 37,
+    "integer-math": 9,
+    "ui": 3,
+    "docs": 1
+  },
+  "by_sev": {
+    "2": 40,
+    "1": 9,
+    "3": 1
+  },
+  "clustering_ratio_top3": 0.98,
+  "fetched_utc": "2026-09-29T19:12:21.757695+00:00"
+}

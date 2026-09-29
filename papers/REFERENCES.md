@@ -1,0 +1,12 @@
+# References (voted across tools, 2026–2027 sucked live)
+- BrowserStack Guide: 20 QA Best Practices 2026 — shift-left, risk coverage, continuous testing, flaky quarantine.
+- TTMS 2026 Guide: requirements alignment, Given/When/Then, risk-based prioritization, Qatana/AI draft review.
+- Ortem 2026: test pyramid, Testcontainers, mutation (Stryker/PITest/Mutmut), Pact contracts, k6 + Lighthouse CI.
+- Virtuoso 2026 Checklist: strategy→design→automation→CI→defects→governance→AI-era (human checkpoint, audit trail).
+- N-iX 2026: risk control over defect detection, testability-by-architecture, escape-rate metric.
+- OpenResearch web: Testomat, Evozon, QASkills, TestingMind — AI-augmented 2026, 45% manual reduction claim, 89% risk-analysis expectation.
+- OpenAlex: Elbaum et al. TCP family (2002), Do et al. controlled experimentation (2005), Runeson & Höst case-study guidelines (2008).
+- arXiv: Morphy datamorphic (1912.09881), ChatGPT-testing-education (2302.03287), DL testing compare (2202.12139), LTR TCP explainable (2405.13786), Karhu et al. AI-in-testing mapping 2025 (2504.04921).
+- DuckDuckGo: ICST Mutation 2026, Argus FSE2026, SWE-Mutation (ACL 2026), Jia & Harman mutation survey.
+- Patton R. Software Testing 2e, Sams 2006 (object under test, Ch1–22 + App.A).
+- Live: GitHub pytest-dev/pytest issues (50, 2026-09-29) — this repo's E05.

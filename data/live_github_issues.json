@@ -1,0 +1,402 @@
+[
+  {
+    "id": 5620521708,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-28",
+    "title": "Update paramtrize.rst @pytest.mark.parametrize argnames to tuple of s\u2026"
+  },
+  {
+    "id": 5619553152,
+    "area": "integer-math",
+    "sev": 1,
+    "state": "open",
+    "created": "2026-09-28",
+    "title": "addoption: reject non-dash option strings with a clear error"
+  },
+  {
+    "id": 5615842266,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-28",
+    "title": "Clarify scope of fixtures imported into test modules"
+  },
+  {
+    "id": 5613340273,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-28",
+    "title": "Respect parametrization scope in fixture cache reuse"
+  },
+  {
+    "id": 5608686316,
+    "area": "ui",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-28",
+    "title": "build(deps): Bump codecov/codecov-action from 7.1.0 to 7.1.1"
+  },
+  {
+    "id": 5608684416,
+    "area": "integer-math",
+    "sev": 1,
+    "state": "closed",
+    "created": "2026-09-28",
+    "title": "build(deps): Bump pytest-rerunfailures from 16.6.1 to 16.7 in /testing/plugins_integration"
+  },
+  {
+    "id": 5605499836,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-27",
+    "title": "Fix RaisesGroup check callback invocation"
+  },
+  {
+    "id": 5600527913,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-27",
+    "title": "Fix fixture finalizers being skipped if setup is interrupted"
+  },
+  {
+    "id": 5598659078,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-27",
+    "title": "[automated] Update plugin list"
+  },
+  {
+    "id": 5592731077,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-26",
+    "title": "Fix monkeypatch restoration for custom __setattr__ objects"
+  },
+  {
+    "id": 5592715073,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-26",
+    "title": "Fix WarningsRecorder.pop ordering for unrelated categories"
+  },
+  {
+    "id": 5592411895,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-26",
+    "title": "Fix monkeypatch restore with custom setattr"
+  },
+  {
+    "id": 5589086403,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-25",
+    "title": "Adds type annotations to FixtureRequest.node"
+  },
+  {
+    "id": 5588743899,
+    "area": "integer-math",
+    "sev": 1,
+    "state": "open",
+    "created": "2026-09-25",
+    "title": "Fix ambiguous failure and error headings"
+  },
+  {
+    "id": 5579929189,
+    "area": "docs",
+    "sev": 3,
+    "state": "open",
+    "created": "2026-09-25",
+    "title": "Fix NUMBER and ELLIPSIS doctest interaction"
+  },
+  {
+    "id": 5572853804,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-24",
+    "title": "fix(monkeypatch): restore attributes on objects with custom __setattr__"
+  },
+  {
+    "id": 5572346647,
+    "area": "integer-math",
+    "sev": 1,
+    "state": "open",
+    "created": "2026-09-24",
+    "title": "monkeypatch.setattr fails to undo on objects with a custom __setattr__ (regression from #14969)"
+  },
+  {
+    "id": 5572344076,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-24",
+    "title": "Fix `WarningsRecorder.pop()` returning the last match for unrelated categories"
+  },
+  {
+    "id": 5572292671,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-24",
+    "title": "`WarningsRecorder.pop()` returns the last match instead of the first when warning categories are unrelated"
+  },
+  {
+    "id": 5557240766,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-23",
+    "title": "testing: ignore Cython's PyPy collection_type warning"
+  },
+  {
+    "id": 5556786942,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-23",
+    "title": "Issue a fresh PytestWarning instance per warn() call"
+  },
+  {
+    "id": 5556769315,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-23",
+    "title": "Fix __tracebackhide__ handling for ExceptionGroup tracebacks"
+  },
+  {
+    "id": 5556699002,
+    "area": "integer-math",
+    "sev": 1,
+    "state": "closed",
+    "created": "2026-09-23",
+    "title": "Fix tmp_path_retention_policy=\"failed\" deleting dirs on setup/teardown errors"
+  },
+  {
+    "id": 5556692820,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-23",
+    "title": "Fix fixture finalizers being skipped when setup is interrupted"
+  },
+  {
+    "id": 5555037001,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-23",
+    "title": "Avoid unnecessary descriptor reads with raising=False"
+  },
+  {
+    "id": 5553152469,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-23",
+    "title": "Fix pytest.approx Decimal repr always using scientific notation"
+  },
+  {
+    "id": 5553151850,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-23",
+    "title": "Fix ExceptionInfo.fill_unfilled() not computing _striptext"
+  },
+  {
+    "id": 5550037990,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-23",
+    "title": "[unattended ai] fix: skip inaccessible entries during collection"
+  },
+  {
+    "id": 5547740555,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-23",
+    "title": "Fix warning filter precedence across test scopes"
+  },
+  {
+    "id": 5545200613,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-22",
+    "title": "Skip fixture-discovery scan for fixture-less plugins"
+  },
+  {
+    "id": 5545151471,
+    "area": "integer-math",
+    "sev": 1,
+    "state": "closed",
+    "created": "2026-09-22",
+    "title": "Omit redundant File block in SyntaxError output when crash line has location"
+  },
+  {
+    "id": 5545075675,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-22",
+    "title": "Strip ANSI sequences before writing junitxml text"
+  },
+  {
+    "id": 5540291868,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-22",
+    "title": "Fix fixture finalizers skipped on KeyboardInterrupt during setup (#15067)"
+  },
+  {
+    "id": 5538807467,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-22",
+    "title": "python: warn when an abstract test class swallows its tests"
+  },
+  {
+    "id": 5537724813,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-22",
+    "title": "Test classes without abstract implementation are skipped silently during collection "
+  },
+  {
+    "id": 5537647705,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-22",
+    "title": "Test class without implemented abstract methods"
+  },
+  {
+    "id": 5535677212,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-22",
+    "title": "Expose FixtureFunctionDefinition publicly"
+  },
+  {
+    "id": 5535037180,
+    "area": "integer-math",
+    "sev": 1,
+    "state": "open",
+    "created": "2026-09-22",
+    "title": "fix tmp_path retention for setup and teardown errors"
+  },
+  {
+    "id": 5532663891,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-21",
+    "title": "[pre-commit.ci] pre-commit autoupdate"
+  },
+  {
+    "id": 5528765326,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-21",
+    "title": "logging: capture each record once when propagate changes during a test (#15064)"
+  },
+  {
+    "id": 5528185574,
+    "area": "integer-math",
+    "sev": 1,
+    "state": "open",
+    "created": "2026-09-21",
+    "title": "Attribute session teardown errors past xfail conversion"
+  },
+  {
+    "id": 5526718049,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-21",
+    "title": "fixtures: say where a fixture is defined, when it is missing and when it is doubled"
+  },
+  {
+    "id": 5526608722,
+    "area": "ui",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-21",
+    "title": "Split ExceptionInfo and the Repr objects into capture, data model and renderers"
+  },
+  {
+    "id": 5523020007,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-21",
+    "title": "A terminal file argument re-collects its parent package and forks subpackage collectors, losing conftest fixtures (9.1.x"
+  },
+  {
+    "id": 5522245061,
+    "area": "ui",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-21",
+    "title": "build(deps): Bump codecov/codecov-action from 7.0.0 to 7.1.0"
+  },
+  {
+    "id": 5516083533,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-20",
+    "title": "fix(fixtures): run registered finalizers when setup is interrupted by BaseException"
+  },
+  {
+    "id": 5516047410,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-20",
+    "title": "Fixture finalizers are skipped when setup is interrupted before `cached_result` is assigned"
+  },
+  {
+    "id": 5514728992,
+    "area": "float-math",
+    "sev": 2,
+    "state": "closed",
+    "created": "2026-09-20",
+    "title": "[automated] Update plugin list"
+  },
+  {
+    "id": 5513470115,
+    "area": "integer-math",
+    "sev": 1,
+    "state": "open",
+    "created": "2026-09-19",
+    "title": "Fix --last-failed for custom item names containing brackets"
+  },
+  {
+    "id": 5511737039,
+    "area": "float-math",
+    "sev": 2,
+    "state": "open",
+    "created": "2026-09-19",
+    "title": "Duplicate log capture when an initially non-propagating logger enables propagation"
+  }
+]

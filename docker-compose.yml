@@ -1,0 +1,10 @@
+services:
+  lab:
+    build: .
+    volumes:
+      - ./test-results:/lab/test-results
+      - ./data:/lab/data
+    environment:
+      - PYTHONPATH=/lab/src
+      - LIVE_DATA_ALLOW_NETWORK=1
+    command: pytest -v --tb=short

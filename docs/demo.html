@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Patton Testing Benchmark — Live Demo</title>
+<style>
+  body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:0;background:#0b1020;color:#e8ecf8}
+  .wrap{max-width:960px;margin:0 auto;padding:32px 20px}
+  .hero{background:linear-gradient(135deg,#1b2a6b,#5b2a86);border-radius:16px;padding:28px}
+  h1{margin:0 0 8px;font-size:32px} p.sub{margin:0;opacity:.9}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:20px 0}
+  .card{background:#141b36;border:1px solid #2a3563;border-radius:12px;padding:14px}
+  .k{font-size:12px;opacity:.7;text-transform:uppercase} .v{font-size:24px;font-weight:700}
+  code,pre{background:#0a0f24;border:1px solid #2a3563;border-radius:8px;padding:10px;display:block;overflow:auto}
+  .btn{display:inline-block;background:#22c55e;color:#04120a;padding:10px 16px;border-radius:10px;font-weight:700;text-decoration:none;margin-right:8px}
+  table{width:100%;border-collapse:collapse} th,td{border-bottom:1px solid #2a3563;padding:8px;text-align:left;font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>Patton Testing Benchmark</h1>
+    <p class="sub">Ron Patton (2006) A–Z verified on <b>live GitHub data</b> + 2026 best practice. 35 tests green. MIT.</p>
+    <p><a class="btn" href="#quickstart">Quickstart in 30s</a></p>
+  </div>
+  <div class="grid">
+    <div class="card"><div class="k">Live source</div><div class="v">pytest/pytest</div><div>n=50 live issues</div></div>
+    <div class="card"><div class="k">Clustering top-3</div><div class="v">0.98</div><div>H1 supported (≥0.50)</div></div>
+    <div class="card"><div class="k">Tests</div><div class="v">35 passed</div><div>E01–E06</div></div>
+    <div class="card"><div class="k">Overflow step</div><div class="v">100→101</div><div>boundary ±1 matters</div></div>
+  </div>
+  <h2 id="quickstart">Quickstart</h2>
+  <pre>python3 scripts/fetch_live_data.py
+PYTHONPATH=src pytest -v
+docker compose up --build</pre>
+  <h2>Experiments</h2>
+  <table>
+    <tr><th>ID</th><th>Patton</th><th>2026 gate</th><th>Status</th></tr>
+    <tr><td>E01</td><td>Ch.5/7 boundaries + atoi</td><td>mutation kill</td><td>✅</td></tr>
+    <tr><td>E02</td><td>Ch.5 state/ZIP/FSM</td><td>pairwise</td><td>✅</td></tr>
+    <tr><td>E03</td><td>Ch.13 buffer/JPEG</td><td>safe-copy, fuzz</td><td>✅</td></tr>
+    <tr><td>E04</td><td>Ch.8/9 config</td><td>combinatorial</td><td>✅</td></tr>
+    <tr><td>E05</td><td>Ch.3/20 live metrics</td><td>escape-rate</td><td>✅ live</td></tr>
+    <tr><td>E06</td><td>Ch.15 monkeys</td><td>dumb vs smart</td><td>✅</td></tr>
+  </table>
+  <p>Full report: papers/BENCHMARK_RESULTS.md · Proposal: papers/PHD_PROPOSAL_DRAFT.md</p>
+</div>
+</body>
+</html>
